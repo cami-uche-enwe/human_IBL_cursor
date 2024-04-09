@@ -1,0 +1,46 @@
+7.9640 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7feb394da940>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7feb394daf40>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7feb394dae80>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7feb3978d520>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.9643 	EXP 	window1: mouseVisible = True
+7.9643 	EXP 	window1: backgroundImage = ''
+7.9644 	EXP 	window1: backgroundFit = 'none'
+7.9718 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.9719 	EXP 	window1: recordFrameIntervals = False
+8.0626 	EXP 	window1: recordFrameIntervals = True
+8.1711 	EXP 	Screen (0) actual frame rate measured at 120.87Hz
+8.1711 	EXP 	window1: recordFrameIntervals = False
+8.1729 	EXP 	window1: mouseVisible = False
+11.3855 	EXP 	mouse_version_ibl: status = STARTED
+11.3860 	EXP 	window1: mouseVisible = True
+11.4305 	EXP 	Created fixation_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), texRes=128.0, units='height', win=Window(...))
+11.4307 	EXP 	window1: mouseVisible = True
+11.4638 	EXP 	Created fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), texRes=128.0, units='height', win=Window(...))
+11.4640 	EXP 	window1: mouseVisible = True
+11.4669 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1.0, ori=90.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([5., 5.]), size=array([0.3, 0.3]), tex='sin', texRes=128.0, units='height', win=Window(...))
+11.4670 	EXP 	window1: mouseVisible = True
+11.4672 	EXP 	window1: mouseVisible = True
+11.5205 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='break_text', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.5207 	EXP 	window1: mouseVisible = True
+11.5220 	EXP 	Created countdown = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='countdown', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.5221 	EXP 	window1: mouseVisible = True
+11.5424 	EXP 	Created outro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='outro_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0266 	EXP 	Imported bias_block.xlsx as conditions, 2 conditions, 1 params
+0.0274 	EXP 	Created sequence: random, trialTypes=2, nReps=2, seed=None
+0.0276 	EXP 	New trial (rep=0, index=0): {'biasPoint': 0.2}
+0.0327 	EXP 	Imported contrast_levels.xlsx as conditions, 15 conditions, 1 params
+0.0333 	EXP 	Created sequence: random, trialTypes=15, nReps=1, seed=None
+0.0334 	EXP 	New trial (rep=0, index=0): {'contrast_gr': 0.25}
+0.0512 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+0.0512 	EXP 	fixation_2: texRes = 128.0
+0.0512 	EXP 	fixation_2: autoDraw = True
+2.5516 	EXP 	fixation_2: autoDraw = False
+2.5516 	EXP 	fixation_2: autoDraw = False
+2.5516 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+2.5516 	EXP 	fixation: texRes = 128.0
+2.5516 	EXP 	fixation: autoDraw = True
+2.5516 	EXP 	grating: autoDraw = True
+2.5516 	EXP 	grating: tex = 'sin'
+8.0993 	DATA 	Keypress: escape
+8.1018 	EXP 	mouse_version_ibl: status = STOPPED
+8.1068 	EXP 	fixation: autoDraw = False
+8.1068 	EXP 	grating: autoDraw = False
+8.1068 	EXP 	mouse_version_ibl: status = STOPPED
+8.1412 	EXP 	window1: mouseVisible = True

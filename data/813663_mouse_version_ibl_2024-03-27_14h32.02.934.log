@@ -1,0 +1,93 @@
+7.5184 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f82b18311f0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f82b1831190>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8281802b50>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f8290fd7760>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.5187 	EXP 	window1: mouseVisible = True
+7.5188 	EXP 	window1: backgroundImage = ''
+7.5188 	EXP 	window1: backgroundFit = 'none'
+7.5240 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.5241 	EXP 	window1: recordFrameIntervals = False
+7.6085 	EXP 	window1: recordFrameIntervals = True
+7.7018 	EXP 	Screen (0) actual frame rate measured at 120.10Hz
+7.7019 	EXP 	window1: recordFrameIntervals = False
+7.7029 	EXP 	window1: mouseVisible = False
+10.9140 	EXP 	mouse_version_ibl: status = STARTED
+10.9145 	EXP 	window1: mouseVisible = True
+10.9571 	EXP 	Created fixation_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), texRes=128.0, units='height', win=Window(...))
+10.9573 	EXP 	window1: mouseVisible = True
+10.9898 	EXP 	Created fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([0., 0., 0.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), texRes=128.0, units='height', win=Window(...))
+10.9900 	EXP 	window1: mouseVisible = True
+10.9929 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1.0, ori=90.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([5., 5.]), size=array([0.3, 0.3]), tex='sin', texRes=128.0, units='height', win=Window(...))
+10.9930 	EXP 	window1: mouseVisible = True
+0.0186 	EXP 	Created sequence: random, trialTypes=1, nReps=10, seed=None
+0.0189 	EXP 	New trial (rep=0, index=0): None
+0.0286 	EXP 	fixation_2: autoDraw = True
+0.5284 	EXP 	fixation_2: autoDraw = False
+0.5284 	EXP 	fixation: autoDraw = True
+0.5284 	EXP 	grating: autoDraw = True
+0.5284 	EXP 	grating: tex = 'sin'
+2.1045 	EXP 	New trial (rep=1, index=0): None
+2.1106 	EXP 	fixation: autoDraw = False
+2.1106 	EXP 	grating: autoDraw = False
+2.1106 	EXP 	fixation_2: autoDraw = True
+2.6146 	EXP 	fixation_2: autoDraw = False
+2.6146 	EXP 	fixation: autoDraw = True
+2.6146 	EXP 	grating: autoDraw = True
+3.8861 	EXP 	New trial (rep=2, index=0): None
+3.8917 	EXP 	fixation: autoDraw = False
+3.8917 	EXP 	grating: autoDraw = False
+3.8917 	EXP 	fixation_2: autoDraw = True
+4.3980 	EXP 	fixation_2: autoDraw = False
+4.3980 	EXP 	fixation: autoDraw = True
+4.3980 	EXP 	grating: autoDraw = True
+5.4688 	EXP 	New trial (rep=3, index=0): None
+5.4745 	EXP 	fixation: autoDraw = False
+5.4745 	EXP 	grating: autoDraw = False
+5.4745 	EXP 	fixation_2: autoDraw = True
+5.9812 	EXP 	fixation_2: autoDraw = False
+5.9812 	EXP 	fixation: autoDraw = True
+5.9812 	EXP 	grating: autoDraw = True
+7.1131 	EXP 	New trial (rep=4, index=0): None
+7.1184 	EXP 	fixation: autoDraw = False
+7.1184 	EXP 	grating: autoDraw = False
+7.1184 	EXP 	fixation_2: autoDraw = True
+7.6251 	EXP 	fixation_2: autoDraw = False
+7.6251 	EXP 	fixation_2: autoDraw = False
+7.6251 	EXP 	fixation: autoDraw = True
+7.6251 	EXP 	grating: autoDraw = True
+8.4349 	EXP 	New trial (rep=5, index=0): None
+8.4416 	EXP 	fixation: autoDraw = False
+8.4416 	EXP 	grating: autoDraw = False
+8.4416 	EXP 	fixation_2: autoDraw = True
+8.9479 	EXP 	fixation_2: autoDraw = False
+8.9479 	EXP 	fixation: autoDraw = True
+8.9479 	EXP 	grating: autoDraw = True
+10.4067 	EXP 	New trial (rep=6, index=0): None
+10.4122 	EXP 	fixation: autoDraw = False
+10.4122 	EXP 	grating: autoDraw = False
+10.4122 	EXP 	fixation_2: autoDraw = True
+10.9187 	EXP 	fixation_2: autoDraw = False
+10.9187 	EXP 	fixation: autoDraw = True
+10.9187 	EXP 	grating: autoDraw = True
+11.9206 	EXP 	New trial (rep=7, index=0): None
+11.9413 	EXP 	fixation: autoDraw = False
+11.9413 	EXP 	grating: autoDraw = False
+11.9413 	EXP 	fixation_2: autoDraw = True
+12.4318 	EXP 	fixation_2: autoDraw = False
+12.4318 	EXP 	fixation: autoDraw = True
+12.4318 	EXP 	grating: autoDraw = True
+13.1514 	EXP 	New trial (rep=8, index=0): None
+13.1582 	EXP 	fixation: autoDraw = False
+13.1582 	EXP 	grating: autoDraw = False
+13.1582 	EXP 	fixation_2: autoDraw = True
+13.6650 	EXP 	fixation_2: autoDraw = False
+13.6650 	EXP 	fixation: autoDraw = True
+13.6650 	EXP 	grating: autoDraw = True
+14.3689 	EXP 	New trial (rep=9, index=0): None
+14.3740 	EXP 	fixation: autoDraw = False
+14.3740 	EXP 	grating: autoDraw = False
+14.3740 	EXP 	fixation_2: autoDraw = True
+14.8817 	EXP 	fixation_2: autoDraw = False
+14.8817 	EXP 	fixation: autoDraw = True
+14.8817 	EXP 	grating: autoDraw = True
+15.4583 	EXP 	fixation: autoDraw = False
+15.4583 	EXP 	grating: autoDraw = False
+15.4584 	EXP 	mouse_version_ibl: status = STOPPED
+15.5064 	EXP 	window1: mouseVisible = True

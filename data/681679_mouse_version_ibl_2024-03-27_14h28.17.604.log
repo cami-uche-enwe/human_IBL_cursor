@@ -1,0 +1,50 @@
+8.0648 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.0654 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fbef14f1d00>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fbef14f1fd0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fbef14f1df0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fbf00a39490>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.0656 	EXP 	window1: mouseVisible = True
+8.0656 	EXP 	window1: backgroundImage = ''
+8.0657 	EXP 	window1: backgroundFit = 'none'
+8.0690 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.0691 	EXP 	window1: recordFrameIntervals = False
+8.1544 	EXP 	window1: recordFrameIntervals = True
+8.6145 	EXP 	Screen (0) actual frame rate measured at 120.37Hz
+8.6145 	EXP 	window1: recordFrameIntervals = True
+8.6158 	EXP 	window1: mouseVisible = False
+11.5815 	EXP 	mouse_version_ibl: status = STARTED
+11.5819 	EXP 	window1: mouseVisible = True
+11.6247 	EXP 	Created fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([0., 0., 0.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), texRes=128.0, units='height', win=Window(...))
+11.6249 	EXP 	window1: mouseVisible = True
+11.6278 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1.0, ori=90.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([5., 5.]), size=array([0.3, 0.3]), tex='sin', texRes=128.0, units='height', win=Window(...))
+11.6279 	EXP 	window1: mouseVisible = True
+0.0142 	EXP 	Created sequence: random, trialTypes=1, nReps=5, seed=None
+0.0145 	EXP 	New trial (rep=0, index=0): None
+0.0312 	EXP 	fixation: autoDraw = True
+0.0312 	EXP 	grating: autoDraw = True
+0.0312 	EXP 	grating: tex = 'sin'
+0.0533 	WARNING 	t of last frame was 22.06ms (=1/45)
+1.7157 	EXP 	New trial (rep=1, index=0): None
+1.7236 	EXP 	fixation: autoDraw = False
+1.7236 	EXP 	grating: autoDraw = False
+1.7236 	EXP 	fixation: autoDraw = True
+1.7236 	EXP 	grating: autoDraw = True
+1.7253 	EXP 	New trial (rep=2, index=0): None
+1.7367 	EXP 	fixation: autoDraw = False
+1.7367 	EXP 	grating: autoDraw = False
+1.7367 	EXP 	fixation: autoDraw = True
+1.7367 	EXP 	grating: autoDraw = True
+3.3677 	EXP 	New trial (rep=3, index=0): None
+3.3769 	EXP 	fixation: autoDraw = False
+3.3769 	EXP 	grating: autoDraw = False
+3.3769 	EXP 	fixation: autoDraw = True
+3.3769 	EXP 	grating: autoDraw = True
+3.3796 	EXP 	New trial (rep=4, index=0): None
+3.3870 	EXP 	fixation: autoDraw = False
+3.3870 	EXP 	grating: autoDraw = False
+3.3870 	EXP 	fixation: autoDraw = True
+3.3870 	EXP 	grating: autoDraw = True
+4.2863 	EXP 	fixation: autoDraw = False
+4.2863 	EXP 	grating: autoDraw = False
+4.2863 	EXP 	mouse_version_ibl: status = STOPPED
+4.3355 	EXP 	window1: mouseVisible = True

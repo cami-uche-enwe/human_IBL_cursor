@@ -1,0 +1,145 @@
+8.7050 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.7055 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fbdf8a510a0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fbdf8a51040>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fbe08319ee0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fbe08a79610>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.7057 	EXP 	window1: mouseVisible = True
+8.7057 	EXP 	window1: backgroundImage = ''
+8.7057 	EXP 	window1: backgroundFit = 'none'
+8.7086 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.7087 	EXP 	window1: recordFrameIntervals = False
+8.7878 	EXP 	window1: recordFrameIntervals = True
+9.6216 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+9.6227 	EXP 	window1: mouseVisible = False
+12.7921 	EXP 	mouse_version_ibl: status = STARTED
+12.7925 	EXP 	window1: mouseVisible = True
+12.8366 	EXP 	Created fixation_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), texRes=128.0, units='height', win=Window(...))
+12.8368 	EXP 	window1: mouseVisible = True
+12.8700 	EXP 	Created fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), texRes=128.0, units='height', win=Window(...))
+12.8702 	EXP 	window1: mouseVisible = True
+12.8731 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1.0, ori=90.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([5., 5.]), size=array([0.3, 0.3]), tex='sin', texRes=128.0, units='height', win=Window(...))
+12.8731 	EXP 	window1: mouseVisible = True
+0.0162 	EXP 	Created sequence: random, trialTypes=1, nReps=10, seed=None
+0.0164 	EXP 	New trial (rep=0, index=0): None
+0.0350 	WARNING 	t of last frame was 20.53ms (=1/48)
+0.0350 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+0.0350 	EXP 	fixation_2: texRes = 128.0
+0.0350 	EXP 	fixation_2: autoDraw = True
+0.5405 	WARNING 	t of last frame was 35.62ms (=1/28)
+0.5405 	EXP 	fixation_2: autoDraw = False
+0.5405 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+0.5405 	EXP 	fixation: texRes = 128.0
+0.5405 	EXP 	fixation: autoDraw = True
+0.5405 	EXP 	grating: autoDraw = True
+0.5405 	EXP 	grating: tex = 'sin'
+2.0279 	EXP 	New trial (rep=1, index=0): None
+2.0431 	WARNING 	t of last frame was 20.68ms (=1/48)
+2.0431 	EXP 	fixation: autoDraw = False
+2.0431 	EXP 	grating: autoDraw = False
+2.0431 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2.0431 	EXP 	fixation_2: texRes = 128.0
+2.0431 	EXP 	fixation_2: autoDraw = True
+2.5491 	EXP 	fixation_2: autoDraw = False
+2.5491 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+2.5491 	EXP 	fixation: texRes = 128.0
+2.5491 	EXP 	fixation: autoDraw = True
+2.5491 	EXP 	grating: autoDraw = True
+3.2912 	EXP 	New trial (rep=2, index=0): None
+3.3067 	EXP 	fixation: autoDraw = False
+3.3067 	EXP 	grating: autoDraw = False
+3.3067 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+3.3067 	EXP 	fixation_2: texRes = 128.0
+3.3067 	EXP 	fixation_2: autoDraw = True
+3.8138 	EXP 	fixation_2: autoDraw = False
+3.8138 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+3.8138 	EXP 	fixation: texRes = 128.0
+3.8138 	EXP 	fixation: autoDraw = True
+3.8138 	EXP 	grating: autoDraw = True
+5.0925 	EXP 	New trial (rep=3, index=0): None
+5.1069 	EXP 	fixation: autoDraw = False
+5.1069 	EXP 	grating: autoDraw = False
+5.1069 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+5.1069 	EXP 	fixation_2: texRes = 128.0
+5.1069 	EXP 	fixation_2: autoDraw = True
+5.6137 	EXP 	fixation_2: autoDraw = False
+5.6137 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+5.6137 	EXP 	fixation: texRes = 128.0
+5.6137 	EXP 	fixation: autoDraw = True
+5.6137 	EXP 	grating: autoDraw = True
+6.6253 	EXP 	New trial (rep=4, index=0): None
+6.6396 	EXP 	fixation: autoDraw = False
+6.6396 	EXP 	grating: autoDraw = False
+6.6396 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+6.6396 	EXP 	fixation_2: texRes = 128.0
+6.6396 	EXP 	fixation_2: autoDraw = True
+7.1469 	EXP 	fixation_2: autoDraw = False
+7.1469 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+7.1469 	EXP 	fixation: texRes = 128.0
+7.1469 	EXP 	fixation: autoDraw = True
+7.1469 	EXP 	grating: autoDraw = True
+8.3593 	EXP 	New trial (rep=5, index=0): None
+8.3738 	EXP 	fixation: autoDraw = False
+8.3738 	EXP 	grating: autoDraw = False
+8.3738 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+8.3738 	EXP 	fixation_2: texRes = 128.0
+8.3738 	EXP 	fixation_2: autoDraw = True
+8.8812 	EXP 	fixation_2: autoDraw = False
+8.8812 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+8.8812 	EXP 	fixation: texRes = 128.0
+8.8812 	EXP 	fixation: autoDraw = True
+8.8812 	EXP 	grating: autoDraw = True
+10.0863 	EXP 	New trial (rep=6, index=0): None
+10.1007 	EXP 	fixation: autoDraw = False
+10.1007 	EXP 	grating: autoDraw = False
+10.1007 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+10.1007 	EXP 	fixation_2: texRes = 128.0
+10.1007 	EXP 	fixation_2: autoDraw = True
+10.6033 	EXP 	fixation_2: autoDraw = False
+10.6033 	EXP 	fixation_2: autoDraw = False
+10.6033 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+10.6033 	EXP 	fixation: texRes = 128.0
+10.6033 	EXP 	fixation: autoDraw = True
+10.6033 	EXP 	grating: autoDraw = True
+11.7531 	EXP 	New trial (rep=7, index=0): None
+11.7691 	WARNING 	t of last frame was 20.48ms (=1/48)
+11.7691 	EXP 	fixation: autoDraw = False
+11.7691 	EXP 	grating: autoDraw = False
+11.7691 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+11.7691 	EXP 	fixation_2: texRes = 128.0
+11.7691 	EXP 	fixation_2: autoDraw = True
+12.2692 	EXP 	fixation_2: autoDraw = False
+12.2692 	EXP 	fixation_2: autoDraw = False
+12.2692 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+12.2692 	EXP 	fixation: texRes = 128.0
+12.2692 	EXP 	fixation: autoDraw = True
+12.2692 	EXP 	grating: autoDraw = True
+13.3106 	EXP 	New trial (rep=8, index=0): None
+13.3296 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+13.3296 	EXP 	fixation: autoDraw = False
+13.3296 	EXP 	grating: autoDraw = False
+13.3296 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+13.3296 	EXP 	fixation_2: texRes = 128.0
+13.3296 	EXP 	fixation_2: autoDraw = True
+13.8307 	EXP 	fixation_2: autoDraw = False
+13.8307 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+13.8307 	EXP 	fixation: texRes = 128.0
+13.8307 	EXP 	fixation: autoDraw = True
+13.8307 	EXP 	grating: autoDraw = True
+14.8587 	EXP 	New trial (rep=9, index=0): None
+14.8730 	EXP 	fixation: autoDraw = False
+14.8730 	EXP 	grating: autoDraw = False
+14.8730 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+14.8730 	EXP 	fixation_2: texRes = 128.0
+14.8730 	EXP 	fixation_2: autoDraw = True
+15.3804 	EXP 	fixation_2: autoDraw = False
+15.3804 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+15.3804 	EXP 	fixation: texRes = 128.0
+15.3804 	EXP 	fixation: autoDraw = True
+15.3804 	EXP 	grating: autoDraw = True
+16.3642 	EXP 	fixation: autoDraw = False
+16.3642 	EXP 	grating: autoDraw = False
+16.3643 	EXP 	mouse_version_ibl: status = STOPPED
+16.4093 	EXP 	window1: mouseVisible = True

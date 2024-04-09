@@ -1,0 +1,62 @@
+9.2856 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+9.2863 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fad718d30d0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fad718d3070>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fad8220df40>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fad82584670>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.2865 	EXP 	window1: mouseVisible = True
+9.2865 	EXP 	window1: backgroundImage = ''
+9.2865 	EXP 	window1: backgroundFit = 'none'
+9.2895 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.2895 	EXP 	window1: recordFrameIntervals = False
+9.3686 	EXP 	window1: recordFrameIntervals = True
+10.2034 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.2043 	EXP 	window1: mouseVisible = False
+13.4033 	EXP 	mouse_version_ibl: status = STARTED
+13.4039 	EXP 	window1: mouseVisible = True
+13.4611 	EXP 	Created fixation_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), texRes=128.0, units='height', win=Window(...))
+13.4613 	EXP 	window1: mouseVisible = True
+13.4962 	EXP 	Created fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), texRes=128.0, units='height', win=Window(...))
+13.4964 	EXP 	window1: mouseVisible = True
+13.4994 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1.0, ori=90.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([5., 5.]), size=array([0.3, 0.3]), tex='sin', texRes=128.0, units='height', win=Window(...))
+13.4995 	EXP 	window1: mouseVisible = True
+13.4998 	EXP 	window1: mouseVisible = True
+13.5571 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='break_text', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.5573 	EXP 	window1: mouseVisible = True
+13.5586 	EXP 	Created countdown = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='countdown', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.5588 	EXP 	window1: mouseVisible = True
+13.5807 	EXP 	Created outro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='outro_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0236 	EXP 	Imported nobias_block.xlsx as conditions, 1 conditions, 1 params
+0.0260 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+0.0262 	EXP 	New trial (rep=0, index=0): {'biasPoint': 0.5}
+0.0311 	EXP 	Imported contrast_levels.xlsx as conditions, 15 conditions, 1 params
+0.0320 	EXP 	Created sequence: random, trialTypes=15, nReps=1, seed=None
+0.0321 	EXP 	New trial (rep=0, index=0): {'contrast_gr': 0.03}
+0.0495 	WARNING 	t of last frame was 34.10ms (=1/29)
+0.0495 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+0.0495 	EXP 	fixation_2: texRes = 128.0
+0.0495 	EXP 	fixation_2: autoDraw = True
+1.3387 	WARNING 	t of last frame was 39.14ms (=1/25)
+1.3387 	EXP 	fixation_2: autoDraw = False
+1.3387 	EXP 	fixation_2: autoDraw = False
+1.3387 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+1.3387 	EXP 	fixation: texRes = 128.0
+1.3387 	EXP 	fixation: autoDraw = True
+1.3387 	EXP 	grating: autoDraw = True
+1.3387 	EXP 	grating: tex = 'sin'
+2.2699 	EXP 	New trial (rep=0, index=1): {'contrast_gr': 0.125}
+2.2865 	WARNING 	t of last frame was 20.82ms (=1/48)
+2.2865 	EXP 	fixation: autoDraw = False
+2.2865 	EXP 	grating: autoDraw = False
+2.2865 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+2.2865 	EXP 	fixation_2: texRes = 128.0
+2.2865 	EXP 	fixation_2: autoDraw = True
+3.4186 	WARNING 	t of last frame was 36.57ms (=1/27)
+3.5230 	DATA 	Keypress: escape
+3.5300 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+3.5307 	EXP 	mouse_version_ibl: status = STOPPED
+3.5358 	EXP 	fixation_2: autoDraw = False
+3.5359 	EXP 	mouse_version_ibl: status = STOPPED
+3.5761 	EXP 	window1: mouseVisible = True

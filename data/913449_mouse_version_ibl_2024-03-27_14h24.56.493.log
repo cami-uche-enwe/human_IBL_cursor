@@ -1,0 +1,60 @@
+9.4790 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+9.4801 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc69a50130>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc69a500d0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdc8ab8bfa0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdc8ae00670>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.4803 	EXP 	window1: mouseVisible = True
+9.4803 	EXP 	window1: backgroundImage = ''
+9.4804 	EXP 	window1: backgroundFit = 'none'
+9.4840 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.4840 	EXP 	window1: recordFrameIntervals = False
+9.5693 	EXP 	window1: recordFrameIntervals = True
+10.4026 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.4039 	EXP 	window1: mouseVisible = False
+13.6122 	EXP 	mouse_version_ibl: status = STARTED
+13.6126 	EXP 	window1: mouseVisible = True
+13.6186 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1.0, ori=90.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([5., 5.]), size=array([0.3, 0.3]), tex='sin', texRes=128.0, units='height', win=Window(...))
+13.6187 	EXP 	window1: mouseVisible = True
+13.6188 	EXP 	window1: mouseVisible = True
+13.6682 	EXP 	Created fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([0., 0., 0.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.05, 0.05]), texRes=128.0, units='height', win=Window(...))
+0.0157 	EXP 	Created sequence: random, trialTypes=1, nReps=5, seed=None
+0.0159 	EXP 	New trial (rep=0, index=0): None
+0.0343 	WARNING 	t of last frame was 21.11ms (=1/47)
+0.0343 	EXP 	grating: autoDraw = True
+0.0343 	EXP 	fixation: autoDraw = True
+0.0343 	EXP 	grating: tex = 'sin'
+0.9747 	DATA 	Mouse: Left button down, pos=(1035,450)
+1.5747 	EXP 	New trial (rep=1, index=0): None
+1.5819 	EXP 	grating: autoDraw = False
+1.5819 	EXP 	fixation: autoDraw = False
+1.5819 	EXP 	grating: autoDraw = True
+1.5819 	EXP 	fixation: autoDraw = True
+1.9976 	DATA 	Mouse:  Left button up, pos=(1029,451)
+2.3980 	DATA 	Mouse: Left button down, pos=(1029,451)
+3.0245 	EXP 	New trial (rep=2, index=0): None
+3.0321 	EXP 	grating: autoDraw = False
+3.0321 	EXP 	fixation: autoDraw = False
+3.0321 	EXP 	grating: autoDraw = True
+3.0321 	EXP 	fixation: autoDraw = True
+3.3178 	DATA 	Mouse:  Left button up, pos=(1035,450)
+3.5840 	DATA 	Mouse: Left button down, pos=(1035,450)
+3.9717 	EXP 	New trial (rep=3, index=0): None
+3.9942 	WARNING 	t of last frame was 26.95ms (=1/37)
+3.9942 	EXP 	grating: autoDraw = False
+3.9942 	EXP 	fixation: autoDraw = False
+3.9942 	EXP 	grating: autoDraw = True
+3.9942 	EXP 	fixation: autoDraw = True
+4.2677 	DATA 	Mouse:  Left button up, pos=(406,450)
+4.5173 	DATA 	Mouse: Left button down, pos=(406,450)
+4.9379 	EXP 	New trial (rep=4, index=0): None
+4.9444 	EXP 	grating: autoDraw = False
+4.9444 	EXP 	fixation: autoDraw = False
+4.9444 	EXP 	grating: autoDraw = True
+4.9444 	EXP 	fixation: autoDraw = True
+6.1440 	EXP 	grating: autoDraw = False
+6.1440 	EXP 	fixation: autoDraw = False
+6.1440 	EXP 	mouse_version_ibl: status = STOPPED
+6.2000 	EXP 	window1: mouseVisible = True
