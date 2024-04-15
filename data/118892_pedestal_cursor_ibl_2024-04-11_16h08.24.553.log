@@ -1,0 +1,269 @@
+11.0600 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+11.0624 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fced12c0340>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fced12c02e0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fced12c0130>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fcec1f168b0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='deg', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.0626 	EXP 	window1: mouseVisible = True
+11.0626 	EXP 	window1: backgroundImage = ''
+11.0626 	EXP 	window1: backgroundFit = 'none'
+11.0649 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.0650 	EXP 	window1: recordFrameIntervals = False
+11.1432 	EXP 	window1: recordFrameIntervals = True
+11.9760 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+11.9782 	EXP 	window1: mouseVisible = False
+15.3262 	EXP 	pedestal_cursor_ibl: status = STARTED
+15.3269 	EXP 	window1: mouseVisible = True
+15.3960 	EXP 	Created welcome_position = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.75, italic=False, languageStyle='LTR', name='welcome_position', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='deg', win=Window(...), wrapWidth=15.0)
+15.3962 	EXP 	window1: mouseVisible = True
+15.4492 	EXP 	Created fixation_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='deg', win=Window(...))
+15.4493 	EXP 	window1: mouseVisible = True
+15.4827 	EXP 	Created fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='deg', win=Window(...))
+15.4829 	EXP 	window1: mouseVisible = True
+15.4905 	EXP 	Created dot = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.0, name='dot', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='deg', vertices=ndarray(...), win=Window(...), windingRule=None)
+15.4907 	EXP 	window1: mouseVisible = True
+15.4938 	EXP 	Created grating_l = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating_l', opacity=1.0, ori=0.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.3, 0.3]), size=array([15., 15.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+15.4939 	EXP 	window1: mouseVisible = True
+15.4967 	EXP 	Created grating_r = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating_r', opacity=1.0, ori=0.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.3, 0.3]), size=array([15., 15.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+15.4968 	EXP 	window1: mouseVisible = True
+16.2714 	EXP 	Sound sound_trial_start set volume 0.100
+16.2748 	EXP 	Sound sound_no_resp set volume 0.100
+16.2982 	EXP 	Sound feedback_sound set volume 1.000
+16.2985 	EXP 	window1: mouseVisible = True
+16.3332 	EXP 	Created fixation_obj_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation_obj_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.75, 0.75]), texRes=128.0, units='deg', win=Window(...))
+16.3334 	EXP 	window1: mouseVisible = True
+16.3498 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='break_text', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.3500 	EXP 	window1: mouseVisible = True
+16.3513 	EXP 	Created countdown = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='countdown', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.3514 	EXP 	window1: mouseVisible = True
+16.3857 	EXP 	Created fixation_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='deg', win=Window(...))
+16.3859 	EXP 	window1: mouseVisible = True
+16.4192 	EXP 	Created fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='deg', win=Window(...))
+16.4194 	EXP 	window1: mouseVisible = True
+16.4260 	EXP 	Created dot = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=1.0, name='dot', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='deg', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.4261 	EXP 	window1: mouseVisible = True
+16.4290 	EXP 	Created grating_l = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating_l', opacity=1.0, ori=0.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.3, 0.3]), size=array([15., 15.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+16.4293 	EXP 	window1: mouseVisible = True
+16.4321 	EXP 	Created grating_r = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating_r', opacity=1.0, ori=0.0, phase=array([1., 1.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.3, 0.3]), size=array([15., 15.]), tex='sin', texRes=128.0, units='deg', win=Window(...))
+16.4322 	EXP 	window1: mouseVisible = True
+16.4326 	EXP 	Sound sound_trial_start set volume 0.100
+16.4335 	EXP 	Sound sound_no_resp set volume 0.100
+16.4527 	EXP 	Sound feedback_sound set volume 1.000
+16.4529 	EXP 	window1: mouseVisible = True
+16.4864 	EXP 	Created fixation_obj_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='fixation_object.png', interpolate=True, mask='circle', maskParams=None, name='fixation_obj_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.75, 0.75]), texRes=128.0, units='deg', win=Window(...))
+16.4866 	EXP 	window1: mouseVisible = True
+16.4947 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='break_text', opacity=1.0, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.4949 	EXP 	window1: mouseVisible = True
+16.4962 	EXP 	Created countdown = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='countdown', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.4964 	EXP 	window1: mouseVisible = True
+16.5240 	EXP 	Created outro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0000000000000002, italic=False, languageStyle='LTR', name='outro_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='deg', win=Window(...), wrapWidth=15.0)
+0.0709 	WARNING 	t of last frame was 32.77ms (=1/30)
+0.0709 	EXP 	welcome_position: autoDraw = True
+1.1429 	EXP 	Imported pregen_params.xlsx as conditions, 10 conditions, 7 params
+1.1449 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+1.1452 	EXP 	New trial (rep=0, index=0): {'og_eccentricity': -35, 'og_contrast': 1, 'og_q': 0.61010396, 'eccentricity': -15, 'baseContrast': 0.5, 'contrastDelta': 0.2, 'q': 0.61010396}
+1.1464 	EXP 	window1: mouseVisible = False
+1.1785 	DATA 	Keypress: space
+1.1851 	WARNING 	t of last frame was 215.44ms (=1/4)
+1.1851 	EXP 	welcome_position: autoDraw = False
+1.1851 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+1.1851 	EXP 	fixation_2: texRes = 128.0
+1.1851 	EXP 	fixation_2: autoDraw = True
+1.7090 	EXP 	Sound sound_trial_start started
+1.7216 	WARNING 	t of last frame was 29.25ms (=1/34)
+1.7216 	EXP 	fixation_2: autoDraw = False
+1.7216 	EXP 	fixation_2: autoDraw = False
+1.7216 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+1.7216 	EXP 	fixation: texRes = 128.0
+1.7216 	EXP 	grating_l: phase = array([184.84374896, 184.84374896])
+1.7216 	EXP 	grating_r: phase = array([163.89046011, 163.89046011])
+1.7216 	EXP 	fixation: autoDraw = True
+1.7216 	EXP 	dot: autoDraw = True
+1.7216 	EXP 	grating_l: autoDraw = True
+1.7216 	EXP 	grating_r: autoDraw = True
+1.7216 	EXP 	grating_l: tex = 'sin'
+1.7216 	EXP 	grating_r: tex = 'sin'
+1.9553 	EXP 	Sound sound_trial_start stopped
+1.9678 	WARNING 	t of last frame was 174.35ms (=1/5)
+2.3938 	EXP 	Sound feedback_sound started
+2.3874 	EXP 	fixation: autoDraw = False
+2.3874 	EXP 	dot: autoDraw = False
+2.3874 	EXP 	grating_l: autoDraw = False
+2.3874 	EXP 	grating_r: autoDraw = False
+2.3874 	EXP 	fixation_obj_2: autoDraw = True
+2.7422 	EXP 	Sound feedback_sound reached end of file
+2.7426 	EXP 	Sound feedback_sound reached end of file
+2.7519 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+3.3710 	EXP 	New trial (rep=0, index=1): {'og_eccentricity': -35, 'og_contrast': 0.125, 'og_q': 0.60337632, 'eccentricity': -15, 'baseContrast': 0.5, 'contrastDelta': 0.05, 'q': 0.60337632}
+3.3712 	EXP 	window1: mouseVisible = False
+3.3873 	EXP 	fixation_obj_2: autoDraw = False
+3.3873 	EXP 	fixation_obj_2: autoDraw = False
+3.3873 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+3.3873 	EXP 	fixation_2: texRes = 128.0
+3.3873 	EXP 	fixation_2: autoDraw = True
+4.0531 	EXP 	Sound sound_trial_start started
+4.0602 	EXP 	fixation_2: autoDraw = False
+4.0602 	EXP 	fixation_2: autoDraw = False
+4.0602 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+4.0602 	EXP 	fixation: texRes = 128.0
+4.0602 	EXP 	grating_l: phase = array([273.28401959, 273.28401959])
+4.0602 	EXP 	grating_r: phase = array([24.79790514, 24.79790514])
+4.0602 	EXP 	fixation: autoDraw = True
+4.0602 	EXP 	dot: autoDraw = True
+4.0602 	EXP 	grating_l: autoDraw = True
+4.0602 	EXP 	grating_r: autoDraw = True
+4.0602 	EXP 	grating_l: tex = 'sin'
+4.0602 	EXP 	grating_r: tex = 'sin'
+4.3044 	EXP 	Sound sound_trial_start stopped
+4.9190 	EXP 	Sound feedback_sound started
+4.9112 	EXP 	fixation: autoDraw = False
+4.9112 	EXP 	dot: autoDraw = False
+4.9112 	EXP 	grating_l: autoDraw = False
+4.9112 	EXP 	grating_r: autoDraw = False
+4.9112 	EXP 	fixation_obj_2: autoDraw = True
+5.2644 	EXP 	Sound feedback_sound stopped
+5.9043 	EXP 	New trial (rep=0, index=2): {'og_eccentricity': -35, 'og_contrast': 1, 'og_q': 0.61869807, 'eccentricity': -15, 'baseContrast': 0.5, 'contrastDelta': 0.2, 'q': 0.61869807}
+5.9045 	EXP 	window1: mouseVisible = False
+5.9208 	EXP 	fixation_obj_2: autoDraw = False
+5.9208 	EXP 	fixation_obj_2: autoDraw = False
+5.9208 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+5.9208 	EXP 	fixation_2: texRes = 128.0
+5.9208 	EXP 	fixation_2: autoDraw = True
+6.4364 	EXP 	Sound sound_trial_start started
+6.4435 	EXP 	fixation_2: autoDraw = False
+6.4435 	EXP 	fixation_2: autoDraw = False
+6.4435 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+6.4435 	EXP 	fixation: texRes = 128.0
+6.4435 	EXP 	grating_l: phase = array([296.82306473, 296.82306473])
+6.4435 	EXP 	grating_r: phase = array([212.95403353, 212.95403353])
+6.4435 	EXP 	fixation: autoDraw = True
+6.4435 	EXP 	dot: autoDraw = True
+6.4435 	EXP 	grating_l: autoDraw = True
+6.4435 	EXP 	grating_r: autoDraw = True
+6.4435 	EXP 	grating_l: tex = 'sin'
+6.4435 	EXP 	grating_r: tex = 'sin'
+6.6878 	EXP 	Sound sound_trial_start stopped
+7.1437 	EXP 	Sound feedback_sound started
+7.1366 	EXP 	fixation: autoDraw = False
+7.1366 	EXP 	dot: autoDraw = False
+7.1366 	EXP 	grating_l: autoDraw = False
+7.1366 	EXP 	grating_r: autoDraw = False
+7.1366 	EXP 	fixation_obj_2: autoDraw = True
+7.7883 	EXP 	Sound feedback_sound stopped
+9.1213 	EXP 	New trial (rep=0, index=3): {'og_eccentricity': 35, 'og_contrast': 0.0625, 'og_q': 0.55997489, 'eccentricity': 15, 'baseContrast': 0.5, 'contrastDelta': 0.02, 'q': 0.55997489}
+9.1215 	EXP 	window1: mouseVisible = False
+9.1375 	EXP 	fixation_obj_2: autoDraw = False
+9.1375 	EXP 	fixation_obj_2: autoDraw = False
+9.1375 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+9.1375 	EXP 	fixation_2: texRes = 128.0
+9.1375 	EXP 	fixation_2: autoDraw = True
+9.5591 	EXP 	Sound sound_trial_start started
+9.5677 	EXP 	fixation_2: autoDraw = False
+9.5677 	EXP 	fixation_2: autoDraw = False
+9.5677 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+9.5677 	EXP 	fixation: texRes = 128.0
+9.5677 	EXP 	grating_l: phase = array([193.99194522, 193.99194522])
+9.5677 	EXP 	grating_r: phase = array([317.93061819, 317.93061819])
+9.5677 	EXP 	fixation: autoDraw = True
+9.5677 	EXP 	dot: autoDraw = True
+9.5677 	EXP 	grating_l: autoDraw = True
+9.5677 	EXP 	grating_r: autoDraw = True
+9.5677 	EXP 	grating_l: tex = 'sin'
+9.5677 	EXP 	grating_r: tex = 'sin'
+9.8051 	EXP 	Sound sound_trial_start stopped
+10.3765 	EXP 	Sound feedback_sound started
+10.3786 	EXP 	fixation: autoDraw = False
+10.3786 	EXP 	dot: autoDraw = False
+10.3786 	EXP 	grating_l: autoDraw = False
+10.3786 	EXP 	grating_r: autoDraw = False
+10.3786 	EXP 	fixation_obj_2: autoDraw = True
+11.0203 	EXP 	Sound feedback_sound stopped
+12.3709 	EXP 	New trial (rep=0, index=4): {'og_eccentricity': -35, 'og_contrast': 0.25, 'og_q': 0.67488689, 'eccentricity': -15, 'baseContrast': 0.5, 'contrastDelta': 0.1, 'q': 0.67488689}
+12.3711 	EXP 	window1: mouseVisible = False
+12.3878 	EXP 	fixation_obj_2: autoDraw = False
+12.3878 	EXP 	fixation_obj_2: autoDraw = False
+12.3878 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+12.3878 	EXP 	fixation_2: texRes = 128.0
+12.3878 	EXP 	fixation_2: autoDraw = True
+12.8030 	EXP 	Sound sound_trial_start started
+12.8090 	EXP 	fixation_2: autoDraw = False
+12.8090 	EXP 	fixation_2: autoDraw = False
+12.8090 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+12.8090 	EXP 	fixation: texRes = 128.0
+12.8090 	EXP 	grating_l: phase = array([120.87332767, 120.87332767])
+12.8090 	EXP 	grating_r: phase = array([18.49037386, 18.49037386])
+12.8090 	EXP 	fixation: autoDraw = True
+12.8090 	EXP 	dot: autoDraw = True
+12.8090 	EXP 	grating_l: autoDraw = True
+12.8090 	EXP 	grating_r: autoDraw = True
+12.8090 	EXP 	grating_l: tex = 'sin'
+12.8090 	EXP 	grating_r: tex = 'sin'
+13.0541 	EXP 	Sound sound_trial_start stopped
+13.4772 	EXP 	Sound feedback_sound started
+13.4713 	EXP 	fixation: autoDraw = False
+13.4713 	EXP 	dot: autoDraw = False
+13.4713 	EXP 	grating_l: autoDraw = False
+13.4713 	EXP 	grating_r: autoDraw = False
+13.4713 	EXP 	fixation_obj_2: autoDraw = True
+13.8105 	EXP 	Sound feedback_sound reached end of file
+13.8108 	EXP 	Sound feedback_sound reached end of file
+14.4602 	EXP 	New trial (rep=0, index=5): {'og_eccentricity': -35, 'og_contrast': 0, 'og_q': 0.65214593, 'eccentricity': -15, 'baseContrast': 0.5, 'contrastDelta': 0, 'q': 0.65214593}
+14.4603 	EXP 	window1: mouseVisible = False
+14.4745 	EXP 	fixation_obj_2: autoDraw = False
+14.4745 	EXP 	fixation_obj_2: autoDraw = False
+14.4745 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+14.4745 	EXP 	fixation_2: texRes = 128.0
+14.4745 	EXP 	fixation_2: autoDraw = True
+15.0031 	EXP 	Sound sound_trial_start started
+15.0103 	EXP 	fixation_2: autoDraw = False
+15.0103 	EXP 	fixation_2: autoDraw = False
+15.0103 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+15.0103 	EXP 	fixation: texRes = 128.0
+15.0103 	EXP 	grating_l: phase = array([309.13259795, 309.13259795])
+15.0103 	EXP 	grating_r: phase = array([144.9198656, 144.9198656])
+15.0103 	EXP 	fixation: autoDraw = True
+15.0103 	EXP 	dot: autoDraw = True
+15.0103 	EXP 	grating_l: autoDraw = True
+15.0103 	EXP 	grating_r: autoDraw = True
+15.0103 	EXP 	grating_l: tex = 'sin'
+15.0103 	EXP 	grating_r: tex = 'sin'
+15.2475 	EXP 	Sound sound_trial_start stopped
+16.1764 	EXP 	Sound feedback_sound started
+16.1859 	EXP 	fixation: autoDraw = False
+16.1859 	EXP 	dot: autoDraw = False
+16.1859 	EXP 	grating_l: autoDraw = False
+16.1859 	EXP 	grating_r: autoDraw = False
+16.1859 	EXP 	fixation_obj_2: autoDraw = True
+16.5102 	EXP 	Sound feedback_sound reached end of file
+16.5105 	EXP 	Sound feedback_sound reached end of file
+17.1709 	EXP 	New trial (rep=0, index=6): {'og_eccentricity': -35, 'og_contrast': 0.125, 'og_q': 0.4835406, 'eccentricity': -15, 'baseContrast': 0.5, 'contrastDelta': 0.05, 'q': 0.4835406}
+17.1711 	EXP 	window1: mouseVisible = False
+17.1878 	EXP 	fixation_obj_2: autoDraw = False
+17.1878 	EXP 	fixation_obj_2: autoDraw = False
+17.1878 	EXP 	fixation_2: foreColor = <psychopy.colors.Color: white, alpha=1.0>
+17.1878 	EXP 	fixation_2: texRes = 128.0
+17.1878 	EXP 	fixation_2: autoDraw = True
+17.6261 	EXP 	Sound sound_trial_start started
+17.6319 	EXP 	fixation_2: autoDraw = False
+17.6319 	EXP 	fixation_2: autoDraw = False
+17.6319 	EXP 	fixation: foreColor = <psychopy.colors.Color: transparent, alpha=1.0>
+17.6319 	EXP 	fixation: texRes = 128.0
+17.6319 	EXP 	grating_l: phase = array([272.19771159, 272.19771159])
+17.6319 	EXP 	grating_r: phase = array([60.22176787, 60.22176787])
+17.6319 	EXP 	fixation: autoDraw = True
+17.6319 	EXP 	dot: autoDraw = True
+17.6319 	EXP 	grating_l: autoDraw = True
+17.6319 	EXP 	grating_r: autoDraw = True
+17.6319 	EXP 	grating_l: tex = 'sin'
+17.6319 	EXP 	grating_r: tex = 'sin'
+17.8717 	EXP 	Sound sound_trial_start stopped
+18.0312 	DATA 	Keypress: escape
+18.0399 	EXP 	pedestal_cursor_ibl: status = STOPPED
+18.0529 	EXP 	fixation: autoDraw = False
+18.0529 	EXP 	dot: autoDraw = False
+18.0529 	EXP 	grating_l: autoDraw = False
+18.0529 	EXP 	grating_r: autoDraw = False
+18.0529 	EXP 	pedestal_cursor_ibl: status = STOPPED
+18.0991 	EXP 	window1: mouseVisible = True
