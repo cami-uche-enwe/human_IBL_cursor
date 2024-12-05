@@ -1,0 +1,4 @@
+This Psychopy experiment is a human replication of the mouse visual decision-making task developed by IBL.
+Contact Anne Urai, a.e.urai@fsw.leidenuniv.nl / see [this doc](https://docs.google.com/document/d/1C6Kt_tYg0wLJQ1GE0N0mQVeitvk-i0vjs0vuYjYIJsQ/edit?tab=t.0) for instructions on running the task.
+
+The most recent and up to date version is `WIN_cursor_ibl.psyexp`. This version was designed to run on Windows using Psychopy v.2024.1.4. The experiment can be opened and edited on later versions and on Mac, but note that on a Mac, the mouse component will not allow to click "continue" buttons due to the retina screen doubling the mouse coordinates.
